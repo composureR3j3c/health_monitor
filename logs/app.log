@@ -1,20 +1,20 @@
-2025-11-05T10:42:20.950+03:00  INFO 3044 --- [health_monitor] [main] c.b.h.HealthMonitorApplication           : Starting HealthMonitorApplication using Java 17.0.2 with PID 3044 (E:\proj\Spring_refreshner\health_monitor\target\classes started by User in E:\proj\Spring_refreshner\health_monitor)
-2025-11-05T10:42:20.979+03:00  INFO 3044 --- [health_monitor] [main] c.b.h.HealthMonitorApplication           : No active profile set, falling back to 1 default profile: "default"
-2025-11-05T10:42:21.435+03:00  INFO 3044 --- [health_monitor] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-11-05T10:42:21.450+03:00  INFO 3044 --- [health_monitor] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
-2025-11-05T10:42:21.750+03:00  INFO 3044 --- [health_monitor] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
-2025-11-05T10:42:21.760+03:00  INFO 3044 --- [health_monitor] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-11-05T10:42:21.760+03:00  INFO 3044 --- [health_monitor] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
-2025-11-05T10:42:21.890+03:00  INFO 3044 --- [health_monitor] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-11-05T10:42:21.890+03:00  INFO 3044 --- [health_monitor] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 880 ms
-2025-11-05T10:42:21.998+03:00  INFO 3044 --- [health_monitor] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-11-05T10:42:22.041+03:00  INFO 3044 --- [health_monitor] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
-2025-11-05T10:42:22.060+03:00  INFO 3044 --- [health_monitor] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-11-05T10:42:23.080+03:00  INFO 3044 --- [health_monitor] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-11-05T10:42:23.111+03:00  INFO 3044 --- [health_monitor] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-11-05T10:42:23.243+03:00  INFO 3044 --- [health_monitor] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:monitor user=SA
-2025-11-05T10:42:23.243+03:00  INFO 3044 --- [health_monitor] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-11-05T10:42:23.280+03:00  INFO 3044 --- [health_monitor] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-11-10T11:00:41.121+03:00  INFO 14496 --- [health_monitor] [main] com.bereket.monitor.MonitorApplication   : Starting MonitorApplication using Java 17.0.2 with PID 14496 (E:\proj\Spring_refreshner\health_monitor\target\classes started by User in E:\proj\Spring_refreshner\health_monitor)
+2025-11-10T11:00:41.262+03:00  INFO 14496 --- [health_monitor] [main] com.bereket.monitor.MonitorApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-10T11:00:48.974+03:00  INFO 14496 --- [health_monitor] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-10T11:00:49.427+03:00  INFO 14496 --- [health_monitor] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 142 ms. Found 2 JPA repository interfaces.
+2025-11-10T11:00:52.709+03:00  INFO 14496 --- [health_monitor] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-11-10T11:00:52.724+03:00  INFO 14496 --- [health_monitor] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-10T11:00:52.724+03:00  INFO 14496 --- [health_monitor] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-10T11:00:53.710+03:00  INFO 14496 --- [health_monitor] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-10T11:00:53.711+03:00  INFO 14496 --- [health_monitor] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9830 ms
+2025-11-10T11:00:54.361+03:00  INFO 14496 --- [health_monitor] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-10T11:00:57.531+03:00  INFO 14496 --- [health_monitor] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-10T11:01:01.704+03:00  INFO 14496 --- [health_monitor] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-10T11:01:04.700+03:00  INFO 14496 --- [health_monitor] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-10T11:01:04.870+03:00  INFO 14496 --- [health_monitor] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-10T11:01:05.536+03:00  INFO 14496 --- [health_monitor] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:monitor user=SA
+2025-11-10T11:01:05.552+03:00  INFO 14496 --- [health_monitor] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-10T11:01:05.686+03:00  INFO 14496 --- [health_monitor] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
@@ -22,34 +22,34 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-11-05T10:42:23.490+03:00  INFO 3044 --- [health_monitor] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-11-05T10:42:23.500+03:00  INFO 3044 --- [health_monitor] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-11-05T10:42:23.527+03:00  WARN 3044 --- [health_monitor] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-11-05T10:42:23.717+03:00  INFO 3044 --- [health_monitor] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:monitor'
-2025-11-05T10:42:24.000+03:00  INFO 3044 --- [health_monitor] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
-2025-11-05T10:42:24.000+03:00  INFO 3044 --- [health_monitor] [main] c.b.h.HealthMonitorApplication           : Started HealthMonitorApplication in 3.5 seconds (process running for 3.743)
-2025-11-05T11:25:22.801+03:00  INFO 3044 --- [health_monitor] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-11-05T11:25:22.947+03:00  INFO 3044 --- [health_monitor] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-11-05T11:25:22.981+03:00  INFO 3044 --- [health_monitor] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-11-05T11:25:23.001+03:00  INFO 3044 --- [health_monitor] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-11-05T11:25:23.003+03:00  INFO 3044 --- [health_monitor] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-11-05T11:54:47.665+03:00  INFO 3580 --- [health_monitor] [main] com.bereket.monitor.MonitorApplication   : Starting MonitorApplication using Java 17.0.2 with PID 3580 (E:\proj\Spring_refreshner\health_monitor\target\classes started by User in E:\proj\Spring_refreshner\health_monitor)
-2025-11-05T11:54:47.726+03:00  INFO 3580 --- [health_monitor] [main] com.bereket.monitor.MonitorApplication   : No active profile set, falling back to 1 default profile: "default"
-2025-11-05T11:54:50.560+03:00  INFO 3580 --- [health_monitor] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-11-05T11:54:50.715+03:00  INFO 3580 --- [health_monitor] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 2 JPA repository interfaces.
-2025-11-05T11:54:52.525+03:00  INFO 3580 --- [health_monitor] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
-2025-11-05T11:54:52.699+03:00  INFO 3580 --- [health_monitor] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-11-05T11:54:52.699+03:00  INFO 3580 --- [health_monitor] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
-2025-11-05T11:54:53.027+03:00  INFO 3580 --- [health_monitor] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-11-05T11:54:53.027+03:00  INFO 3580 --- [health_monitor] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5145 ms
-2025-11-05T11:54:53.513+03:00  INFO 3580 --- [health_monitor] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-11-05T11:54:53.763+03:00  INFO 3580 --- [health_monitor] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
-2025-11-05T11:54:53.898+03:00  INFO 3580 --- [health_monitor] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-11-05T11:54:54.867+03:00  INFO 3580 --- [health_monitor] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-11-05T11:54:55.000+03:00  INFO 3580 --- [health_monitor] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-11-05T11:54:55.702+03:00  INFO 3580 --- [health_monitor] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:monitor user=SA
-2025-11-05T11:54:55.703+03:00  INFO 3580 --- [health_monitor] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-11-05T11:54:55.986+03:00  INFO 3580 --- [health_monitor] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-11-10T11:01:08.372+03:00  INFO 14496 --- [health_monitor] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-10T11:01:08.862+03:00  INFO 14496 --- [health_monitor] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10T11:01:12.910+03:00  WARN 14496 --- [health_monitor] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-10T11:01:14.019+03:00  INFO 14496 --- [health_monitor] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:monitor'
+2025-11-10T11:01:14.775+03:00  INFO 14496 --- [health_monitor] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-11-10T11:01:14.784+03:00  INFO 14496 --- [health_monitor] [main] com.bereket.monitor.MonitorApplication   : Started MonitorApplication in 37.411 seconds (process running for 40.252)
+2025-11-10T11:16:01.567+03:00  INFO 14496 --- [health_monitor] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-10T11:16:02.261+03:00  INFO 14496 --- [health_monitor] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-10T11:16:02.264+03:00  INFO 14496 --- [health_monitor] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10T11:16:02.266+03:00  INFO 14496 --- [health_monitor] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-10T11:16:02.268+03:00  INFO 14496 --- [health_monitor] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-10T11:34:34.911+03:00  INFO 12784 --- [health_monitor] [main] com.bereket.monitor.MonitorApplication   : Starting MonitorApplication using Java 17.0.2 with PID 12784 (E:\proj\Spring_refreshner\health_monitor\target\classes started by User in E:\proj\Spring_refreshner\health_monitor)
+2025-11-10T11:34:34.913+03:00  INFO 12784 --- [health_monitor] [main] com.bereket.monitor.MonitorApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-10T11:34:35.810+03:00  INFO 12784 --- [health_monitor] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-10T11:34:35.861+03:00  INFO 12784 --- [health_monitor] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 2 JPA repository interfaces.
+2025-11-10T11:34:36.300+03:00  INFO 12784 --- [health_monitor] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-11-10T11:34:36.310+03:00  INFO 12784 --- [health_monitor] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-10T11:34:36.310+03:00  INFO 12784 --- [health_monitor] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-10T11:34:36.350+03:00  INFO 12784 --- [health_monitor] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-10T11:34:36.350+03:00  INFO 12784 --- [health_monitor] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1359 ms
+2025-11-10T11:34:36.475+03:00  INFO 12784 --- [health_monitor] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-10T11:34:36.500+03:00  INFO 12784 --- [health_monitor] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-10T11:34:36.527+03:00  INFO 12784 --- [health_monitor] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-10T11:34:36.700+03:00  INFO 12784 --- [health_monitor] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-10T11:34:36.732+03:00  INFO 12784 --- [health_monitor] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-10T11:34:36.850+03:00  INFO 12784 --- [health_monitor] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:monitor user=SA
+2025-11-10T11:34:36.850+03:00  INFO 12784 --- [health_monitor] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-10T11:34:36.892+03:00  INFO 12784 --- [health_monitor] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
@@ -57,50 +57,17 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-11-05T11:54:57.911+03:00  INFO 3580 --- [health_monitor] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-11-05T11:54:58.097+03:00  INFO 3580 --- [health_monitor] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-11-05T11:54:59.185+03:00  WARN 3580 --- [health_monitor] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-11-05T11:54:59.568+03:00  INFO 3580 --- [health_monitor] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:monitor'
-2025-11-05T11:54:59.969+03:00  INFO 3580 --- [health_monitor] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
-2025-11-05T11:54:59.988+03:00  INFO 3580 --- [health_monitor] [main] com.bereket.monitor.MonitorApplication   : Started MonitorApplication in 14.255 seconds (process running for 15.181)
-2025-11-05T12:00:38.814+03:00  INFO 3580 --- [health_monitor] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-11-05T12:00:38.971+03:00  INFO 3580 --- [health_monitor] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-11-05T12:00:38.971+03:00  INFO 3580 --- [health_monitor] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-11-05T12:00:38.992+03:00  INFO 3580 --- [health_monitor] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-11-05T12:00:38.992+03:00  INFO 3580 --- [health_monitor] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-11-05T14:05:55.116+03:00  INFO 17956 --- [health_monitor] [main] com.bereket.monitor.MonitorApplication   : Starting MonitorApplication using Java 17.0.2 with PID 17956 (E:\proj\Spring_refreshner\health_monitor\target\classes started by User in E:\proj\Spring_refreshner\health_monitor)
-2025-11-05T14:05:55.118+03:00  INFO 17956 --- [health_monitor] [main] com.bereket.monitor.MonitorApplication   : No active profile set, falling back to 1 default profile: "default"
-2025-11-05T14:05:55.511+03:00  INFO 17956 --- [health_monitor] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-11-05T14:05:55.558+03:00  INFO 17956 --- [health_monitor] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces.
-2025-11-05T14:05:55.952+03:00  INFO 17956 --- [health_monitor] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
-2025-11-05T14:05:55.963+03:00  INFO 17956 --- [health_monitor] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-11-05T14:05:55.964+03:00  INFO 17956 --- [health_monitor] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
-2025-11-05T14:05:56.002+03:00  INFO 17956 --- [health_monitor] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-11-05T14:05:56.003+03:00  INFO 17956 --- [health_monitor] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 856 ms
-2025-11-05T14:05:56.128+03:00  INFO 17956 --- [health_monitor] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-11-05T14:05:56.160+03:00  INFO 17956 --- [health_monitor] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
-2025-11-05T14:05:56.180+03:00  INFO 17956 --- [health_monitor] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-11-05T14:05:56.358+03:00  INFO 17956 --- [health_monitor] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-11-05T14:05:56.377+03:00  INFO 17956 --- [health_monitor] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-11-05T14:05:56.498+03:00  INFO 17956 --- [health_monitor] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:monitor user=SA
-2025-11-05T14:05:56.500+03:00  INFO 17956 --- [health_monitor] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-11-05T14:05:56.538+03:00  INFO 17956 --- [health_monitor] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 2.3.232
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-11-05T14:05:57.078+03:00  INFO 17956 --- [health_monitor] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-11-05T14:05:57.124+03:00  INFO 17956 --- [health_monitor] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-11-05T14:05:57.377+03:00  WARN 17956 --- [health_monitor] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-11-05T14:05:57.549+03:00  INFO 17956 --- [health_monitor] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:monitor'
-2025-11-05T14:05:57.602+03:00  INFO 17956 --- [health_monitor] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
-2025-11-05T14:05:57.610+03:00  INFO 17956 --- [health_monitor] [main] com.bereket.monitor.MonitorApplication   : Started MonitorApplication in 2.852 seconds (process running for 3.102)
-2025-11-05T14:12:23.455+03:00  INFO 17956 --- [health_monitor] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-11-05T14:12:23.455+03:00  INFO 17956 --- [health_monitor] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-11-05T14:12:23.456+03:00  INFO 17956 --- [health_monitor] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-11-05T14:13:18.667+03:00  WARN 17956 --- [health_monitor] [scheduling-1] c.b.monitor.service.ApiPollerService     : Poll failed for https://jsonplaceholder.typicode.com/posts/1 : org.springframework.web.client.ResourceAccessException: I/O error on GET request for "https://jsonplaceholder.typicode.com/posts/1": Connection timed out: connect
-2025-11-05T14:27:48.655+03:00  WARN 17956 --- [health_monitor] [scheduling-1] c.b.monitor.service.ApiPollerService     : Poll failed for https://jsonplaceholder.typicode.com/posts/1 : org.springframework.web.client.ResourceAccessException: I/O error on GET request for "https://jsonplaceholder.typicode.com/posts/1": Connection timed out: connect
-2025-11-05T14:55:33.901+03:00  WARN 17956 --- [health_monitor] [http-nio-9090-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-11-10T11:34:37.435+03:00  INFO 12784 --- [health_monitor] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-10T11:34:37.484+03:00  INFO 12784 --- [health_monitor] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10T11:34:37.700+03:00  WARN 12784 --- [health_monitor] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-10T11:34:37.869+03:00  INFO 12784 --- [health_monitor] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:monitor'
+2025-11-10T11:34:37.920+03:00  INFO 12784 --- [health_monitor] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-11-10T11:34:37.933+03:00  INFO 12784 --- [health_monitor] [main] com.bereket.monitor.MonitorApplication   : Started MonitorApplication in 4.248 seconds (process running for 4.537)
+2025-11-10T12:14:04.432+03:00  INFO 12784 --- [health_monitor] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-10T12:14:04.433+03:00  INFO 12784 --- [health_monitor] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-10T12:14:04.434+03:00  INFO 12784 --- [health_monitor] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-11-10T12:23:45.230+03:00  INFO 12784 --- [health_monitor] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-10T12:23:45.365+03:00  INFO 12784 --- [health_monitor] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-10T12:23:45.385+03:00  INFO 12784 --- [health_monitor] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10T12:23:45.399+03:00  INFO 12784 --- [health_monitor] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-10T12:23:45.415+03:00  INFO 12784 --- [health_monitor] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
